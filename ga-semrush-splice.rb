@@ -15,10 +15,12 @@ sem_queries = []
 ga_queries = []
 
 ga_data.each do |gad|
+    print(gad)
     ga_queries << gad[0].delete(' ')
 end
 
 sem_data.each do |semd|
+    print(semd)
     sem_queries << semd[0].delete(' ')
 end
 
